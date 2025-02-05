@@ -1,5 +1,5 @@
 {
-    "name": "10.node_server",
+    "name": "11.express",
     "version": "1.0.0",
     "main": "index.js",
     "type": "module",
@@ -22,7 +22,6 @@
         "@eslint/js": "^9.19.0",
         "@types/debug": "^4.1.12",
         "@types/express": "^5.0.0",
-        "@types/minimist": "^1.2.5",
         "@types/morgan": "^1.9.9",
         "@types/node": "^22.12.0",
         "eslint": "^9.19.0",
