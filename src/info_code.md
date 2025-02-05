@@ -1,6 +1,8 @@
 # Explicación del Código
 
 ![diagrama http](/public/http.png)
+![diagrama http](/public/statusCode.png)
+
 
 ## 1. `app.ts` (Configuración de la Aplicación Express)
 
