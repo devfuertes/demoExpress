@@ -2,7 +2,7 @@ import { createServer } from 'node:http';
 import type { ServerResponse } from 'node:http';
 import 'dotenv/config';
 import createDebug from 'debug';
-import { HtmlError } from './error.js';
+import { HttpError } from './http-error.js';
 import { createHtmlString } from './template.js';
 
 import { app } from './app.js';
@@ -27,7 +27,7 @@ const listenManager = () => {
     debug(`Servidor escuchando en ${bind}`);
 };
 
-const errorManager = (error: Error | HtmlError, response: ServerResponse) => {
+const errorManager = (error: Error | HttpError, response: ServerResponse) => {
     if (!('status' in error)) {
         error = {
             ...error,

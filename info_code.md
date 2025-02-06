@@ -3,7 +3,6 @@
 ![diagrama http](/public/http.png)
 ![diagrama http](/public/statusCode.png)
 
-
 ## 1. `app.ts` (Configuración de la Aplicación Express)
 
 Este archivo define la configuración de la aplicación Express y establece los middleware y rutas principales.
